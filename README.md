@@ -24,7 +24,7 @@ Follow these steps to clone the repository and set up your Neovim configuration.
 Open your terminal and run the following command to clone the **eVim** repository to your Neovim configuration directory:
 
 ```bash
-git clone https://github.com/erfankeyhani-1/EvimConf.git ~/.config/nvim
+git clone https://github.com/erfankeyhani-1/eVim.git ~/.config/nvim
 ```
 
 > **Note:** This command will overwrite your existing Neovim configuration. If you have important configurations, consider backing them up before proceeding.
