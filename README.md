@@ -75,7 +75,7 @@ After installation, simply open Neovim, and your customized configuration will b
 
 ### 📜 License
 
-This project is licensed under the [ErfanOS](LICENSE) License.
+This project is licensed under the [Erfan](LICENSE) License.
 
 ---
 
