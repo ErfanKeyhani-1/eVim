@@ -1,6 +1,6 @@
-### eVimConf
+### eVim
 
-**eVimConf** is a customized Neovim configuration designed to enhance your coding experience with essential plugins, keybindings, and themes. This repository allows you to quickly set up Neovim on any machine by cloning the configuration and installing the necessary plugins.
+**eVim** is a customized Neovim configuration designed to enhance your coding experience with essential plugins, keybindings, and themes. This repository allows you to quickly set up Neovim on any machine by cloning the configuration and installing the necessary plugins.
 
 ---
 
@@ -10,8 +10,8 @@
   - [1. Clone the Repository](#1-clone-the-repository)
   - [2. Install Packer.nvim](#2-install-packernvim)
   - [3. Install Plugins](#3-install-plugins)
-- [Usage](#usage)
-- [License](#license)
+- [Usage](#-usage)
+- [License](-#license)
 
 ---
 
@@ -21,7 +21,7 @@ Follow these steps to clone the repository and set up your Neovim configuration.
 
 ### 1. Clone the Repository
 
-Open your terminal and run the following command to clone the **eVimConf** repository to your Neovim configuration directory:
+Open your terminal and run the following command to clone the **eVim** repository to your Neovim configuration directory:
 
 ```bash
 git clone https://github.com/erfankeyhani-1/EvimConf.git ~/.config/nvim
@@ -31,7 +31,7 @@ git clone https://github.com/erfankeyhani-1/EvimConf.git ~/.config/nvim
 
 ### 2. Install Packer.nvim
 
-**eVimConf** uses [packer.nvim](https://github.com/wbthomason/packer.nvim) as the plugin manager. If you don't have `packer.nvim` installed, run the following command:
+**eVim** uses [packer.nvim](https://github.com/wbthomason/packer.nvim) as the plugin manager. If you don't have `packer.nvim` installed, run the following command:
 
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
@@ -56,7 +56,7 @@ This command will download and set up all the plugins specified in the configura
 
 ---
 
-## 🖥 Usage
+### 🖥 Usage
 
 After installation, simply open Neovim, and your customized configuration will be active. You can start coding with enhanced features and plugins already set up.
 
@@ -73,7 +73,7 @@ After installation, simply open Neovim, and your customized configuration will b
 
 ---
 
-## 📜 License
+### 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
