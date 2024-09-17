@@ -1,4 +1,7 @@
 -- nvim_tree.lua
+
+
+--logos n' shi'
 require'nvim-tree'.setup {
   renderer = {
     icons = {
@@ -20,3 +23,4 @@ require'nvim-tree'.setup {
   },
 }
 
+vim.keymap.set('n', '<C-e>', require('nvim-tree.api').tree.toggle, { silent = true })

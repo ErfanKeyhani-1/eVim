@@ -4,8 +4,8 @@
 -- Basic Settings
 -- ========================
 
--- Set leader key to space
-vim.g.mapleader = ' '
+-- Set leader key to Ctrl + Space
+vim.g.mapleader = '<C-Space>'
 
 -- Basic Options
 vim.o.number = true                    -- Show line numbers
@@ -126,4 +126,14 @@ end)
 
 -- Load all plugin configurations from the lua/plugins directory
 require('plugins.init')
+
+-- ========================
+-- Window Navigation Keybindings
+-- ========================
+
+-- Navigate between windows using Ctrl + Arrow Keys
+vim.keymap.set('n', '<C-Up>', '<C-w>k', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-Down>', '<C-w>j', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-Left>', '<C-w>h', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-Right>', '<C-w>l', { noremap = true, silent = true })
 
