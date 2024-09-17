@@ -1,6 +1,6 @@
-### eVimConf
+### eVim
 
-**eVimConf** is a customized Neovim configuration designed to enhance your coding experience with essential plugins, keybindings, and themes. This repository allows you to quickly set up Neovim on any machine by cloning the configuration and installing the necessary plugins.
+**eVim** is a customized Neovim configuration designed to enhance your coding experience with essential plugins, keybindings, and themes. This repository allows you to quickly set up Neovim on any machine by cloning the configuration and installing the necessary plugins.
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 🔧 Prerequisites
 
-Before setting up **eVimConf**, ensure you have the following installed on your system:
+Before setting up **eVim**, ensure you have the following installed on your system:
 
 - **Neovim 0.5 or higher:** [Installation Guide](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 - **Git:** [Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -49,7 +49,7 @@ Follow these steps to clone the repository and set up your Neovim configuration.
 
 ### 1. Clone the Repository
 
-Open your terminal and run the following command to clone the **eVimConf** repository to your Neovim configuration directory:
+Open your terminal and run the following command to clone the **eVim** repository to your Neovim configuration directory:
 
 ```bash
 git clone https://github.com/erfankeyhani-1/EvimConf.git ~/.config/nvim
@@ -59,7 +59,7 @@ git clone https://github.com/erfankeyhani-1/EvimConf.git ~/.config/nvim
 
 ### 2. Install Packer.nvim
 
-**eVimConf** uses [packer.nvim](https://github.com/wbthomason/packer.nvim) as the plugin manager. If you don't have `packer.nvim` installed, install it using the following command:
+**eVim** uses [packer.nvim](https://github.com/wbthomason/packer.nvim) as the plugin manager. If you don't have `packer.nvim` installed, install it using the following command:
 
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
